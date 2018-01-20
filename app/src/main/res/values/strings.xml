@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StarTrip</string>
+    <string name="start">Start</string>
+    <string name="default_max_spin_count">0</string>
+    <string name="recent_spin_count">0</string>
+    <string name="default_time_remaining" />
+</resources>
