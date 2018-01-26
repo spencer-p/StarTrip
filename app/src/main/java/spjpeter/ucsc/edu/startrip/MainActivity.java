@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private void displayRotations() {
         TextView v = (TextView) findViewById(R.id.recentSpinCountTextBox);
-        v.setText(String.format("%.02f rotations", rotatedRads/Math.PI));
+        v.setText(String.format("%.02f rotations", rotatedRads/(2*Math.PI)));
     }
 
     @Override
